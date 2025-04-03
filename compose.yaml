@@ -1,0 +1,6 @@
+﻿services:
+  ravedb:
+    image: ravedb
+    build:
+      context: .
+      dockerfile: ravedb/Dockerfile
